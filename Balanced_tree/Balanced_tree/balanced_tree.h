@@ -1,4 +1,5 @@
 #pragma once
+#include <iterator>
 
 class balanced_tree 
 {
@@ -43,12 +44,13 @@ public:
 	void operator-=(balanced_tree& e);
 	balanced_tree& operator+(balanced_tree& e);
 	balanced_tree& operator-(balanced_tree& e);
-	class iterator
+	class iterator : public std::iterator<std::input_iterator_tag, balanced_tree>
 	{
-	private:
+	protected:
 		node* nodeptr = nullptr;
 	public:
-		iterator(node* ptr) :nodeptr(ptr){}
+		iterator(node* ptr) : nodeptr(ptr) {}
+		iterator(iterator& it) : nodeptr(it.nodeptr) {}
 		iterator();
 		int operator*();
 		bool operator==(iterator x);
@@ -56,11 +58,6 @@ public:
 		void operator=(node* _node);
 		void operator++();
 		void operator+=(unsigned int i);
-	};
-	class const_iterator
-	{
-		iterator it;
-		const_iterator(iterator _it) :it(_it) {}
 	};
 	iterator begin();
 	iterator end();
