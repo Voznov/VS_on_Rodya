@@ -2,7 +2,6 @@
   Создание не-SAFESEH образа.
   Запуск 2-го прохода
        main.obj
-       balanced_tree.obj
        MSVCRTD.lib(loadcfg.obj)
   2-ой проход завершен
   Balanced_tree.vcxproj -> C:\Users\Родион\Documents\Visual Studio 2015\Projects\Balanced_tree\Debug\Balanced_tree.exe

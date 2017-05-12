@@ -1,6 +1,7 @@
 #include <iostream>
 #include "balanced_tree.h"
 #include <vector>
+#include <array>
 
 using namespace std;
 
@@ -10,6 +11,7 @@ void b_out(balanced_tree& b)
 		cout << *it << ' ';
 	cout << endl;
 }
+
 
 int main()
 {
@@ -33,6 +35,12 @@ int main()
 	a = b + v;
 	b_out(a);
 
+	array<int, 5> x;
+	for (int i = 0; i < 5; ++i)
+		x[i] = (i + 1) * 100;
+	a += x;
+	b_out(a);
+	
 	system("pause");
 	return 0;
 }

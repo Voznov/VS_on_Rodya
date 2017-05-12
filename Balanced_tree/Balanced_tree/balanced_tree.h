@@ -58,6 +58,8 @@ public:
 		void operator=(node* _node);
 		void operator++();
 		void operator+=(unsigned int i);
+		iterator& operator+(unsigned int i);
+		unsigned int operator-(iterator x);
 	};
 	iterator begin();
 	iterator end();

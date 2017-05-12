@@ -301,3 +301,25 @@ void balanced_tree::iterator::operator+=(unsigned int i)
 	for (unsigned int j = 0; j < i; ++j)
 		this->operator++();
 }
+
+balanced_tree::iterator & balanced_tree::iterator::operator+(unsigned int i)
+{
+	iterator it(*this);
+	it += i;
+	return it;
+}
+
+unsigned int balanced_tree::iterator::operator-(iterator x)
+{
+	unsigned int result = 0;
+	if(nodeptr->key < *x)
+		return result;
+	iterator _x(x);
+	while (operator!=(_x))
+	{
+		++_x;
+		++result;
+	}
+	return result;
+}
+
