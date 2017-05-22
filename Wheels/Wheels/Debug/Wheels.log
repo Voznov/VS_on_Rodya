@@ -1,0 +1,30 @@
+﻿  main.cpp
+c:\users\родион\documents\visual studio 2015\projects\wheels\wheels\Wheel.h(74): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+c:\users\родион\documents\visual studio 2015\projects\wheels\wheels\Wheel.h(75): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+c:\users\родион\documents\visual studio 2015\projects\wheels\wheels\Wheel.h(76): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+c:\users\родион\documents\visual studio 2015\projects\wheels\wheels\Wheel.h(77): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+c:\users\родион\documents\visual studio 2015\projects\wheels\wheels\Wheel.h(84): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+c:\users\родион\documents\visual studio 2015\projects\wheels\wheels\Wheel.h(86): warning C4305: -=: усечение из "double" к "float"
+c:\users\родион\documents\visual studio 2015\projects\wheels\wheels\MainForm.h(160): warning C4305: +=: усечение из "double" к "float"
+c:\users\родион\documents\visual studio 2015\projects\wheels\wheels\MainForm.h(162): warning C4305: -=: усечение из "double" к "float"
+  MainForm.cpp
+c:\users\родион\documents\visual studio 2015\projects\wheels\wheels\Wheel.h(74): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+c:\users\родион\documents\visual studio 2015\projects\wheels\wheels\Wheel.h(75): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+c:\users\родион\documents\visual studio 2015\projects\wheels\wheels\Wheel.h(76): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+c:\users\родион\documents\visual studio 2015\projects\wheels\wheels\Wheel.h(77): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+c:\users\родион\documents\visual studio 2015\projects\wheels\wheels\Wheel.h(84): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+c:\users\родион\documents\visual studio 2015\projects\wheels\wheels\Wheel.h(86): warning C4305: -=: усечение из "double" к "float"
+c:\users\родион\documents\visual studio 2015\projects\wheels\wheels\MainForm.h(160): warning C4305: +=: усечение из "double" к "float"
+c:\users\родион\documents\visual studio 2015\projects\wheels\wheels\MainForm.h(162): warning C4305: -=: усечение из "double" к "float"
+  Wheel.cpp
+c:\users\родион\documents\visual studio 2015\projects\wheels\wheels\Wheel.h(74): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+c:\users\родион\documents\visual studio 2015\projects\wheels\wheels\Wheel.h(75): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+c:\users\родион\documents\visual studio 2015\projects\wheels\wheels\Wheel.h(76): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+c:\users\родион\documents\visual studio 2015\projects\wheels\wheels\Wheel.h(77): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+c:\users\родион\documents\visual studio 2015\projects\wheels\wheels\Wheel.h(84): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+c:\users\родион\documents\visual studio 2015\projects\wheels\wheels\Wheel.h(86): warning C4305: -=: усечение из "double" к "float"
+  Создание кода...
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+  main.obj : /DEBUG:FASTLINK не поддерживается, если присутствует управляемый код; выполняется перезапуск компоновки с /DEBUG:FULL
+  Wheels.vcxproj -> C:\Users\Родион\Documents\Visual Studio 2015\Projects\Wheels\Debug\Wheels.exe
+  Wheels.vcxproj -> C:\Users\Родион\Documents\Visual Studio 2015\Projects\Wheels\Debug\Wheels.pdb (Partial PDB)
